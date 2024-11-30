@@ -5,73 +5,73 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: "Samsung Smart TV".to_string(),
+            price: 1199.99,
+            description: "Immerse yourself in spectacular visuals with this Samsung LED Smart TV. It features 4K Ultra HD resolution and 60Hz refresh rate for crisp and clear picture quality with smooth visuals. Plus, 4K upscaling improves the quality of low-resolution content to almost 4K resolution. The Tizen OS provides user-friendly interface and more entertainment options.".to_string(),
+            image: "/tv.jpg".to_string()
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "HP Laptop".to_string(),
+            price: 299.99,
+            description: "Sleek and powerful, the HP 15.6-inch laptop can be your reliable computing companion anywhere. Equipped with Intel Core i3 N305 processor and 8GB RAM, this laptop enables smoother performance and multitasking. The 512GB solid state drive provides ample space for storing your files and media. The dual speakers offer enhanced audio experience.".to_string(),
+            image: "/laptop.jpg".to_string()
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "PlayStation 5".to_string(),
+            price: 549.99,
+            description: "Elevate your Fortnite gameplay with the PlayStation 5 Slim console. This Fortnite Cobalt Star bundle includes a PlayStation 5 console, eight in-game cosmetics (estimated value of 5,000 V-bucks), and 1,000 V-bucks. The Cobalt Star pack features an outfit, back bling, pickaxe, wrap, and more. Some cosmetics may also be available in the Fortnite Item Shop.".to_string(),
+            image: "/playstation.jpg".to_string()
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
+            name: "Apple iPhone".to_string(),
+            price: 1749.99,
+            description: "The Apple iPhone 15 Pro Max features the groundbreaking A17 Pro chip, a customizable Action button, and the a powerful iPhone camera system. Forged in titanium, it boasts a strong and light aerospace-grade titanium design with a textured matte-glass back.".to_string(),
+            image: "/phone.jpg".to_string()
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "Cordless Stick Vacuum".to_string(),
+            price: 799.99,
+            description: "Enhance deep-cleaning sessions with the Dyson V15 Detect cordless stick vacuum. It's designed to intelligently adapt the suction power based on how dirty your floors are, allowing you to achieve a comprehensive hard floor or carpet clean with no guesswork. It has an advanced filter for better dust pickup and runs for up to 60 minutes on one charge.".to_string(),
+            image: "/vacuum.jpg".to_string()
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "Espresso".to_string(),
+            price: 399.99,
+            description: "Create expert coffee drinks at home with the Philips 800 automatic espresso machine. Simply add your favourite coffee, then use the My Coffee Choice menu to select your preferred aroma strength and beverage size. The attached milk frother allows you to complete your drink with silky smooth milk froth.".to_string(),
+            image: "/milk.jpg".to_string()
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "OLED smart tv".to_string(),
+            price: 1999.99,
+            description: "Experience the ultimate in visual brilliance with the LG 65 4K OLED Evo ThinQ AI smart TV. It comes with gaming features like NVIDIA G-Sync, AMD FreeSync Premium, and VRR to ensure enhanced gameplay. With a lightning-fast 0.1ms response time and a native 120Hz refresh rate, it delivers crisp and smooth imagery. Thanks to the intuitive AI features, accessing your favourite content is a breeze.".to_string(),
+            image: "/OLED.jpg".to_string()
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "Roku Smart TV".to_string(),
+            price: 319.99,
+            description: "Experience next level of visual entertainment with TCL 55 S-Series smart TV. Its 4K UHD screen resolution, 6.5ms response time and a 60Hz refresh rate guarantee extremely smooth, clear and realistic picture. Three HDMI 1.4a inputs let you watch high-quality content from different sources and dual-band Wi-Fi allows you to wirelessly stream various content.".to_string(),
+            image: "/Roku.jpg".to_string()
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "Bluetooth Headphones".to_string(),
+            price: 279.99,
+            description: "Get the personalised listening experience you deserve with the Sony WH-1000XM4 over-ear Bluetooth headphones. Adaptive noise cancellation with Dual Noise Sensor and powerful Edge-AI technology combine to bring you an intelligent, premium audio experience. The built-in Google Assistant and Amazon Alexa let you control your music hands-free with voice controls.".to_string(),
+            image: "/headphones.jpg".to_string()
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
+            name: "Sound Bar".to_string(),
+            price: 899.99,
+            description: "Get the ultimate cinematic experience right at home with the JBL Bar 1000 880W 7.1.4 channel sound bar. With True Dolby Atmos, DTS:X and Multibeam Surround Sound technologies, it creates an immersive 3D soundscape while Pureview technology ensures voice clarity in dialogues. This sound bar comes with a 10 wireless subwoofer that gives you thundering bass in action scenes.".to_string(),
+            image: "/bar.jpg".to_string()
         }
     ]
 }
